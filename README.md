@@ -112,6 +112,9 @@
   let sortedKeys = dic.keys.sorted {
       return dic[$0]! > dic[$1]!
   }
+  // To Array
+  Array(dic.values)
+  for value in dic.values {}
   ```
 
 - Set
